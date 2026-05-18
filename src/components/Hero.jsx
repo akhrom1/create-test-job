@@ -8,20 +8,20 @@ const Hero = () => {
           className="h-[250px] w-full object-cover sm:h-[400px] lg:h-[600px]"
         />
 
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-gradient-to-r from-purple-900/80 to-pink-900/60" />
 
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-xl px-6 text-white sm:px-10">
-            <h1 className="text-3xl font-bold leading-tight sm:text-5xl">
+            <h1 className="bg-gradient-to-r from-purple-200 to-pink-200 bg-clip-text text-3xl font-bold leading-tight text-transparent sm:text-5xl">
               Temukan Produk Terbaik Untuk Anda
             </h1>
 
-            <p className="mt-4 text-sm text-gray-200 sm:text-lg">
+            <p className="mt-4 text-sm text-gray-100 sm:text-lg">
               Koleksi produk modern dengan kualitas terbaik dan harga
               terjangkau.
             </p>
 
-            <button className="mt-6 rounded-full bg-white px-6 py-3 font-semibold text-black transition hover:bg-gray-200">
+            <button className="mt-6 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-3 font-semibold text-white transition hover:shadow-lg hover:shadow-pink-500/50">
               Belanja Sekarang
             </button>
           </div>

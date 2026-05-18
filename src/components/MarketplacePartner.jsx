@@ -31,9 +31,9 @@ const MarketplacePartner = () => {
     <section className="mx-auto max-w-7xl px-4 py-16">
       {/* TITLE */}
       <div className="mb-12 text-center">
-        <h2 className="text-3xl font-bold">Marketplace Partner</h2>
-
-        <p className="mt-3 text-gray-600">Responsive Mobile, Tablet, Desktop</p>
+        <h2 className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-3xl font-bold text-transparent">
+          Marketplace Partner
+        </h2>
       </div>
 
       {/* MOBILE */}
@@ -42,7 +42,7 @@ const MarketplacePartner = () => {
           <a
             key={item.id}
             href="#"
-            className={`${item.color} flex items-center justify-center rounded-2xl px-6 py-5 text-lg font-semibold text-white shadow-lg transition hover:scale-105`}
+            className={`${item.color} flex items-center justify-center rounded-2xl px-6 py-5 text-lg font-semibold text-white shadow-lg transition hover:scale-105 hover:shadow-lg`}
           >
             {item.name}
           </a>
@@ -82,7 +82,7 @@ const MarketplacePartner = () => {
           <a
             key={item.id}
             href="#"
-            className={`${item.color} flex-1 rounded-2xl px-8 py-5 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-2xl`}
+            className={`${item.color} flex-1 rounded-2xl px-8 py-5 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl`}
           >
             {item.name}
           </a>
